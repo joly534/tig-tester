@@ -1,5 +1,11 @@
 # tig-tester
 algorithms tester for TIG blockchain 
+<H1>TIG TESTER</H1>
+********************************************
+**************** POUR LINUX ****************
+********************************************
 
 <h2>INSTALLER first_test.sh</h2>
-Pour installer first_test.sh dans votre dossier tig-monorepo:
+copier le lien first_test.sh
+se positionner dans le dossier tig-monorepo
+
