@@ -6,7 +6,7 @@ algorithms tester for TIG blockchain
 ********************************************<br/>
 <h2>INSTALLER first_test.sh</h2><br/>
 
-`cd /path/tig-monorepo`
+`cd /path/tig-monorepo`<br/>
 `wget https://github.com/joly534/tig-tester/blob/main/first_test.sh`
 `chmod +x fisrt_test.sh`
 
