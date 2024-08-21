@@ -1,22 +1,24 @@
 # tig-tester
 algorithms tester for TIG blockchain 
-<H1>TIG TESTER</H1>
-********************************************<br/>
-************** POUR LINUX **************<br/>
-********************************************<br/>
-<h2>INSTALLER first_test.sh</h2><br/>
+<H1>TIG TESTER FOR LINUX</H1>
+
+<h2> 1 - FIRST_TEST.SH</h2><br/>
+<p>
+  Ce premier test sert à faire ressortir les algorithmes qui provoquent des erreurs dans le benchmarker de TIG en fonction de votre matériel.<br/>
+</p><br/>
+<H3>a) Installer le script</H3><br/>
 
 `cd /path/tig-monorepo`<br/><br/>
 `wget https://github.com/joly534/tig-tester/blob/main/first_test.sh`<br/><br/>
-`chmod +x fisrt_test.sh`<br/>
+`chmod +x fisrt_test.sh`<br/><br/>
 
-<h2>LANCER LE SCRIPT</h2><br/>
-````bash
-./first_test.sh
-```` 
-` ./first_test.sh`
+<h3>b)Lancer le script</h3><br/>
 
-attendre que le script finisse son travail
+`./first_test.sh`<br/><br/>
 
-<h2>LIRE LES RESULTATS</h2><br/>
-`nano test_errors.txt`
+<h3>c)Lire les résultats</h3><br/>
+
+`nano test_errors.txt`<br/><br/>
+
+<h2> 2 - </h2>
+
