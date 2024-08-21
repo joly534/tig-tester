@@ -11,7 +11,7 @@ algorithms tester for TIG blockchain
 `chmod +x fisrt_test.sh`<br/>
 
 <h2>LANCER LE SCRIPT</h2><br/>
-````
+````bash
 ./first_test.sh
 ```` 
 ` ./first_test.sh`
