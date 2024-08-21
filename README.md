@@ -5,8 +5,8 @@ algorithms tester for TIG blockchain
 ************** POUR LINUX **************<br/>
 ********************************************<br/>
 <h2>INSTALLER first_test.sh</h2><br/>
--copier le lien first_test.sh<br/>
-se positionner dans le dossier tig-monorepo<br/>
+
+-se positionner dans le dossier tig-monorepo<br/>
 -taper la commande :<br/>
 wget https://github.com/joly534/tig-tester/blob/main/first_test.sh<br/><br/>
 -rendre le script executable, pour cela taper la commande :<br/>
