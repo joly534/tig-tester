@@ -128,21 +128,21 @@ for alg in "${algos_saisis[@]}"; do
         resultat=$(cat tests.txt)
         curl -s -X POST "https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/sendMessage" \
             -d "chat_id=$TELEGRAM_CHAT_ID&text=$(printf "%s" "$resultat" | jq -sRr @uri)";
-    if [[ "$alg" =~ ^(2[2-9]|3[0-9]|4[0-7])$ ]]; then
+    elif [[ "$alg" =~ ^(2[2-9]|3[0-9]|4[0-7])$ ]]; then
         curl -s -X POST "https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/sendMessage" \
             -d "chat_id=$TELEGRAM_CHAT_ID&text=$(printf "%s" "Début du test de l'algorithm $alg" | jq -sRr @uri)"
         echo -e "$alg\n$dif_knapsack\n1\n$nonces_knapsack\no" | bash scripts/test_algorithm.sh | sed -n "/#instances: $nonces_knapsack/,/-/p" > tests.txt
         resultat=$(cat tests.txt)
         curl -s -X POST "https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/sendMessage" \
             -d "chat_id=$TELEGRAM_CHAT_ID&text=$(printf "%s" "$resultat" | jq -sRr @uri)"
-    if [[ "$alg" =~ ^(4[8-9]|5[0-9]|6[0-9]|7[0-3])$ ]]; then
+    elif [[ "$alg" =~ ^(4[8-9]|5[0-9]|6[0-9]|7[0-3])$ ]]; then
         curl -s -X POST "https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/sendMessage" \
             -d "chat_id=$TELEGRAM_CHAT_ID&text=$(printf "%s" "Début du test de l'algorithm $alg" | jq -sRr @uri)"       
         echo -e "$alg\n$dif_vehicle_routing\n1\n$nonces_vehicle_routing\no" | bash scripts/test_algorithm.sh | sed -n "/#instances: $nonces_vehicle_routing/,/-/p" > tests.txt
         resultat=$(cat tests.txt)
         curl -s -X POST "https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/sendMessage" \
             -d "chat_id=$TELEGRAM_CHAT_ID&text=$(printf "%s" "$resultat" | jq -sRr @uri)"
-    if [[ "$alg" =~ ^(7[4-9]|8[0-8])$ ]]; then
+    elif [[ "$alg" =~ ^(7[4-9]|8[0-8])$ ]]; then
         curl -s -X POST "https://api.telegram.org/bot$TELEGRAM_BOT_TOKEN/sendMessage" \
             -d "chat_id=$TELEGRAM_CHAT_ID&text=$(printf "%s" "Début du test de l'algorithm $alg" | jq -sRr @uri)"        
         echo -e "$alg\n$dif_vector_search\n1\n$nonces_vector_search\no" | bash scripts/test_algorithm.sh | sed -n "/#instances: $nonces_vector_search/,/-/p" > tests.txt
