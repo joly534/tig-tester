@@ -7,6 +7,8 @@ algorithms tester for TIG blockchain
 <h2> 1 - FIRST_TEST.SH</h2><br/>
 <p>
   Ce premier test sert à faire ressortir les algorithmes qui provoquent des erreurs dans le benchmarker de TIG en fonction de votre matériel.<br/>
+  Pour pouvoir tester tous les algorithmes il vous faut tous les installer.
+
 </p><br/>
 <H3>a) Installer le script</H3>
 
@@ -17,9 +19,11 @@ algorithms tester for TIG blockchain
 <h3>b)Associer votre bot Telegram</h3>
 
 <p>Si vous voulez associer votre bot Telegram à ce script pour être avertit lorsque celui-ci se finit, entrez les infos nécessaires dans le code du script</p>
-
+<figure>
 <img src="images/enter_telegram_bot.jpg" width="500">
 <figcaption>image de l'endroit ou vous deves entrer les infos</figcaption>
+</figure>
+
 <h3>c)Lancer le script</h3>
 
 `./first_test.sh`<br/><br/>
