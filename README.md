@@ -20,5 +20,12 @@ algorithms tester for TIG blockchain
 
 `nano test_errors.txt`<br/><br/>
 
-<h2> 2 - </h2>
+<h2> 2 - ALGO_TESTS</h2><br/>
+<p>
+  Ce test vient en complément du premier tester "first_test.sh".<<<br/>
+  Il existe deux version de ce tester :
+  <ul>
+    <li>la version avec export du resultat dans un fichier texte</li> 
+    <li>la version avec export du resultat dans un canal bot Telegram</li>  
+  </ul>
 
