@@ -35,6 +35,6 @@ algorithms tester for TIG blockchain
   <ul>
     <li>la version avec export du resultat dans un fichier texte : <a href="https://github.com/joly534/tig-tester/blob/main/algos_test.sh">algo_test.sh</a></li> 
     <li>la version avec export du resultat dans un canal bot Telegram : <a href="https://github.com/joly534/tig-tester/blob/main/algo_test_telegram.sh">algo_test_telegram.sh</a></li>  
-    ![screenshot](images/screenshot_telegram.jpg)
+    <img src="images/screenshot_telegram.jpg" width="500">
   </ul>
 
