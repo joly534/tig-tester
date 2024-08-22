@@ -3,6 +3,7 @@ algorithms tester for TIG blockchain
 <H1>TIG TESTER FOR LINUX</H1>
 
 <img src="images/screenshot_telegram.jpg" width="300">
+<img src="images/test_error_txt.jpg" width="300">
 
 <h2> 1 - FIRST_TEST.SH</h2><br/>
 <p>
