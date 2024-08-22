@@ -120,13 +120,13 @@ for alg in "${algos_saisis[@]}"; do
     if [[ "$alg" =~ ^([0-9]|1[0-9]|20|21)$ ]]; then
         echo -e "Test de l'algo $alg"
         echo -e "$alg\n$dif_satisfiability\n1\n$nonces_satisfiability\no" | bash scripts/test_algorithm.sh | sed -n "/#instances: $nonces_satisfiability/,/-/p" >> tests.txt
-    if [[ "$alg" =~ ^(2[2-9]|3[0-9]|4[0-7])$ ]]; then
+    elif [[ "$alg" =~ ^(2[2-9]|3[0-9]|4[0-7])$ ]]; then
         echo -e "Test de l'algo $alg"
         echo -e "$alg\n$dif_knapsack\n1\n$nonces_knapsack\no" | bash scripts/test_algorithm.sh | sed -n "/#instances: $nonces_knapsack/,/-/p" >> tests.txt
-    if [[ "$alg" =~ ^(4[8-9]|5[0-9]|6[0-9]|7[0-3])$ ]]; then
+    elif [[ "$alg" =~ ^(4[8-9]|5[0-9]|6[0-9]|7[0-3])$ ]]; then
         echo -e "Test de l'algo $alg"
         echo -e "$alg\n$dif_vehicle_routing\n1\n$nonces_vehicle_routing\no" | bash scripts/test_algorithm.sh | sed -n "/#instances: $nonces_vehicle_routing/,/-/p" >> tests.txt
-    if [[ "$alg" =~ ^(7[4-9]|8[0-8])$ ]]; then
+    elif [[ "$alg" =~ ^(7[4-9]|8[0-8])$ ]]; then
         echo -e "Test de l'algo $alg"
         echo -e "$alg\n$dif_vector_search\n1\n$nonces_vector_search\no" | bash scripts/test_algorithm.sh | sed -n "/#instances: $nonces_vector_search/,/-/p" >> tests.txt
     fi
