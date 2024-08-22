@@ -25,7 +25,7 @@ algorithms tester for TIG blockchain
   Ce test vient en complément du premier tester "first_test.sh".<br/>
   Il existe deux version de ce tester :
   <ul>
-    <li>la version avec export du resultat dans un fichier texte</li> 
-    <li>la version avec export du resultat dans un canal bot Telegram</li>  
+    <li>la version avec export du resultat dans un fichier texte : <a href="https://github.com/joly534/tig-tester/blob/main/algos_test.sh">algo_test.sh</a></li> 
+    <li>la version avec export du resultat dans un canal bot Telegram : <a href="https://github.com/joly534/tig-tester/blob/main/algo_test_telegram.sh">algo_test_telegram.sh</a></li>  
   </ul>
 
