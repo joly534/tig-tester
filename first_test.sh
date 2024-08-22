@@ -1,7 +1,7 @@
 #!/bin/bash
 #the results of the test will be writen in tig-monorepo/test_errors.txt
 echo "" > test_errors.txt
-for ((i=0;i<75;i++));
+for ((i=0;i<89;i++));
 do
     echo "resultats // results se trouvent - will be written dans le fichier - in file test_errors.txt"
     echo "Résultat pour l'algorithme :${i}" >> test_errors.txt
