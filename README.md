@@ -14,11 +14,6 @@ algorithms tester for TIG blockchain
 <img src="images/screenshot_telegram.jpg" height="300">
 <figcaption>algo_test_telegram.sh</figcaption>
 </figure>
-</td><td>
-<figure>
-<img src="images/screenshot_telegram.jpg" height="300">
-<figcaption>algo_test_telegram.sh</figcaption>
-</figure>
 </td>
 </tr>
 </table>
