@@ -21,7 +21,7 @@ algorithms tester for TIG blockchain
 <p>Si vous ne souhaitez pas utiliser de bot telegram il vous suffit de supprimer la partie du code comme indiqué dans celui ci</p>
 <figure>
 <img src="images/enter_telegram_bot.jpg" width="500" />
-<figcaption>image de l'endroit ou vous devez entrer les infos</figcaption>
+<figcaption>image de l'endroit ou vous devez entrer ou supprimer les infos</figcaption>
 </figure>
 
 <h3>c)Lancer le script</h3>
