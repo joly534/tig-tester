@@ -5,9 +5,15 @@ algorithms tester for TIG blockchain
 <table>
 <tr>
 <td>
+<figure>
 <img src="images/test_error_txt.jpg" height="300">
+<figcaption>first_test.sh</figcaption>
+</figure>
 </td><td>
+<figure>
 <img src="images/screenshot_telegram.jpg" height="300">
+<figcaption>algo_test_telegram.sh</figcaption>
+</figure>
 </td></tr>
 </table>
 <h2> 1 - FIRST_TEST.SH</h2><br/>
