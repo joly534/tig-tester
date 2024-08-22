@@ -2,7 +2,7 @@
 algorithms tester for TIG blockchain 
 <H1>TIG TESTER FOR LINUX</H1>
 
-![screenshot](images/screenshot_telegram.jpg)
+![screenshot](images/screenshot_telegram.jpg | width=100)
 
 <h2> 1 - FIRST_TEST.SH</h2><br/>
 <p>
@@ -14,11 +14,17 @@ algorithms tester for TIG blockchain
 `wget https://github.com/joly534/tig-tester/blob/main/first_test.sh`<br/><br/>
 `chmod +x fisrt_test.sh`<br/><br/>
 
-<h3>b)Lancer le script</h3>
+<h3>b)Associer votre bot Telegram</h3>
+
+<p>
+  Si vous voulez associer votre bot Telegram à ce script pour être avertit lorsque celui ci est terminé entrez les infos necessaire dans le code de 
+</p>
+
+<h3>c)Lancer le script</h3>
 
 `./first_test.sh`<br/><br/>
 
-<h3>c)Lire les résultats</h3>
+<h3>d)Lire les résultats</h3>
 
 `nano test_errors.txt`<br/><br/>
 
