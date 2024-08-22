@@ -17,6 +17,7 @@ algorithms tester for TIG blockchain
 <h3>b)Associer votre bot Telegram (optionnel)</h3>
 
 <p>Si vous voulez associer votre bot Telegram à ce script pour être avertit lorsque celui-ci se finit, entrez les infos nécessaires dans le code du script</p>
+
 <p>Si vous ne souhaitez pas utiliser de bot telegram il vous suffit de supprimer la partie du code comme indiqué dans celui ci</p>
 <figure>
 <img src="images/enter_telegram_bot.jpg" width="500" />
