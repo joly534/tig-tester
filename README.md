@@ -2,9 +2,14 @@
 algorithms tester for TIG blockchain 
 <H1>TIG TESTER FOR LINUX</H1>
 
+<table>
+<tr>
+<td>
 <img src="images/screenshot_telegram.jpg" width="300">
+</td><td>
 <img src="images/test_error_txt.jpg" width="300">
-
+</td></tr>
+</table>
 <h2> 1 - FIRST_TEST.SH</h2><br/>
 <p>
   Ce premier test sert à faire ressortir les algorithmes qui provoquent des erreurs dans le benchmarker de TIG en fonction de votre matériel. le script telechargera tous les algorithmes sur votre machine afin de les tester un par un.
