@@ -14,9 +14,10 @@ algorithms tester for TIG blockchain
 `wget https://github.com/joly534/tig-tester/blob/main/first_test.sh`<br/><br/>
 `chmod +x fisrt_test.sh`<br/><br/>
 
-<h3>b)Associer votre bot Telegram</h3>
+<h3>b)Associer votre bot Telegram (optionnel)</h3>
 
 <p>Si vous voulez associer votre bot Telegram à ce script pour être avertit lorsque celui-ci se finit, entrez les infos nécessaires dans le code du script</p>
+<p>Si vous ne souhaitez pas utiliser de bot telegram il vous suffit de supprimer la partie du code comme indiqué dans celui ci</p>
 <figure>
 <img src="images/enter_telegram_bot.jpg" width="500" />
 <figcaption>image de l'endroit ou vous devez entrer les infos</figcaption>
