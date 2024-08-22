@@ -7,8 +7,7 @@ algorithms tester for TIG blockchain
 <h2> 1 - FIRST_TEST.SH</h2><br/>
 <p>
   Ce premier test sert à faire ressortir les algorithmes qui provoquent des erreurs dans le benchmarker de TIG en fonction de votre matériel.<br/>
-  Pour pouvoir tester tous les algorithmes il vous faut tous les installer.
-
+  Il telechargera tous les algorithmes sur votre machine afin de les tester un par un.
 </p><br/>
 <H3>a) Installer le script</H3>
 
