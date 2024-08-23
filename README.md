@@ -24,7 +24,7 @@ algorithms tester for TIG blockchain
 <H3>a) Installer le script</H3>
 
 `cd /path/tig-monorepo`<br/><br/>
-`wget https://github.com/joly534/tig-tester/blob/main/first_test.sh`<br/><br/>
+`wget (https://raw.githubusercontent.com/joly534/tig-tester/main/first_test.sh)`<br/><br/>
 `chmod +x fisrt_test.sh`<br/><br/>
 
 <h3>b)Associer votre bot Telegram (optionnel)</h3>
