@@ -61,7 +61,6 @@ algorithms tester for TIG blockchain
 
 </p><br/>
 
-<p>```wget https://raw.githubusercontent.com/joly534/tig-tester/main/algo_test_telegram.sh```</p>
-    <img src="images/screenshot_telegram.jpg" width="500">
+<img src="images/screenshot_telegram.jpg" width="500">
 
 
