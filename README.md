@@ -24,7 +24,7 @@ algorithms tester for TIG blockchain
 <H3>a) Installer le script</H3>
 
 `cd /path/tig-monorepo`<br/><br/>
-`wget https://github.com/joly534/tig-tester/blob/main/first_test.sh`<br/><br/>
+`wget https://raw.githubusercontent.com/joly534/tig-tester/main/first_test.sh`<br/><br/>
 `chmod +x fisrt_test.sh`<br/><br/>
 
 <h3>b)Associer votre bot Telegram (optionnel)</h3>
@@ -49,9 +49,18 @@ algorithms tester for TIG blockchain
 <p>
   Ce test vient en complément du premier tester "first_test.sh".<br/>
   Il existe deux version de ce tester :
-  <ul>
-    <li>la version avec export du resultat dans un fichier texte : <a href="https://github.com/joly534/tig-tester/blob/main/algos_test.sh">algo_test.sh</a></li> 
-    <li>la version avec export du resultat dans un canal bot Telegram : <a href="https://github.com/joly534/tig-tester/blob/main/algo_test_telegram.sh">algo_test_telegram.sh</a></li><br/>
-    <img src="images/screenshot_telegram.jpg" width="500">
-  </ul>
+
+<p>
+  la version avec export du resultat dans un fichier texte :<br/>
+
+  ```wget https://raw.githubusercontent.com/joly534/tig-tester/main/algo_test.sh``` <br/>
+    
+  la version avec export du resultat dans un canal bot Telegram :
+
+  ```wget https://raw.githubusercontent.com/joly534/tig-tester/main/algo_test_telegram.sh```<br/>
+
+</p><br/>
+
+<img src="images/screenshot_telegram.jpg" width="500">
+
 
