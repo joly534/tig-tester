@@ -104,7 +104,7 @@ git pull --no-edit --no-rebase https://github.com/tig-foundation/tig-monorepo.gi
 #the results of the test will be writen in tig-monorepo/test_errors.txt
 echo "" > test_errors.txt
 echo "Les 'resultats // results' 'se trouvent // will be written' dans le 'fichier - in file' test_errors.txt"
-for ((i=0;i<97;i++));
+for ((i=0;i<96;i++));
 do
     echo "Résultat pour l'algorithme :${i}" >> test_errors.txt
     echo -e "${i}\n[100,100]\n1\n5\no" | bash scripts/test_algorithm.sh | sed -n "/#instances: 5/,/-/p" >> test_errors.txt
