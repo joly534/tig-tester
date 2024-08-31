@@ -100,27 +100,27 @@
 #git pull --no-edit --no-rebase https://github.com/tig-foundation/tig-monorepo.git vector_search/optimax_search             
 #git pull --no-edit --no-rebase https://github.com/tig-foundation/tig-monorepo.git vector_search/fast_search_cuda           
 
-algs=("schnoing","dpll_backtracking","walk_sat","genetic_sat","satisfiapilled","i_cant_get_no","need_for_speed",\
-    "walk_sat_adapt_tabu","fast_walk_sat","sprint_sat","faster_walk_sat","fastest_walk_sat","filter_sat","sprintier_sat",\
-    "inbound","double_optimized","fast_cdcl_sat_solver","hybrid_ultra_fast","optimized_sprint_sat","sat_allocd","mt_sat",\
-    "heuristics_gsat","manual_sat","clarke_wright","ant_colony","genetic_algorithm","simulated_annealing","limitless",\
-    "dynamic_colonies","lazier_cw","guided_clarke_wright","aco_sbas","fast_exit_clarke","filter_cw","overloded",\
-    "clarke_wright_opt","clarke_wright_who","cw_two_opt_ls","super_heaped","enhanced_annealing","optimized_clarke",\
-    "adaptive_cluster","compact_gcw","fast_exit_cw_topt_ls","inbound","compact_gcw_turbo","improv_clarke_wright",\
-    "cw_heuristic","clarke_wright_super","dynamic","greedy","branch_and_bound","genetic","tabu_search","knapmaxxing",\
-    "better_in_twos","tinhat_pete","knapsplorify","dual_descent","ironhat_pete","flat_dp","filter_knapmaxxing",\
-    "better_knapp","better_knapm","optimised_knapmax","overlodes_sack","knapheudp","over_knapmaxxed","needaknap",\
-    "sack_o_potatoes","lightning_knapsack","quantum_knapsack","ultra_fast_knapsack","sackophone","knap_zilla",\
-    "knap_suck","quick_knap","optimal_ann","kd_tree","brute_force_bacalhau","hyper_index","fast_search",\
-    "vector_finder_multi","fasterer_search","bacalhau_gpu","manual_fast_search","presort_msr","cudabefaster",\
-    "tree_times_a_lady","hyperplanejane","cudamatata","optimax_gpu","gpu_manual_fast","gpu_manual_fastest",\
-    "optimax_search","fast_search_cuda")
+algs=("schnoing" "dpll_backtracking" "walk_sat" "genetic_sat" "satisfiapilled" "i_cant_get_no" "need_for_speed" \
+    "walk_sat_adapt_tabu" "fast_walk_sat" "sprint_sat" "faster_walk_sat" "fastest_walk_sat" "filter_sat" "sprintier_sat" \
+    "inbound" "double_optimized" "fast_cdcl_sat_solver" "hybrid_ultra_fast" "optimized_sprint_sat" "sat_allocd" "mt_sat" \
+    "heuristics_gsat" "manual_sat" "clarke_wright" "ant_colony" "genetic_algorithm" "simulated_annealing" "limitless" \
+    "dynamic_colonies" "lazier_cw" "guided_clarke_wright" "aco_sbas" "fast_exit_clarke" "filter_cw" "overloded" \
+    "clarke_wright_opt" "clarke_wright_who" "cw_two_opt_ls" "super_heaped" "enhanced_annealing" "optimized_clarke" \
+    "adaptive_cluster" "compact_gcw" "fast_exit_cw_topt_ls" "inbound" "compact_gcw_turbo" "improv_clarke_wright" \
+    "cw_heuristic" "clarke_wright_super" "dynamic" "greedy" "branch_and_bound" "genetic" "tabu_search" "knapmaxxing" \
+    "better_in_twos" "tinhat_pete" "knapsplorify" "dual_descent" "ironhat_pete" "flat_dp" "filter_knapmaxxing" \
+    "better_knapp" "better_knapm" "optimised_knapmax" "overlodes_sack" "knapheudp" "over_knapmaxxed" "needaknap" \
+    "sack_o_potatoes" "lightning_knapsack" "quantum_knapsack" "ultra_fast_knapsack" "sackophone" "knap_zilla" \
+    "knap_suck" "quick_knap" "optimal_ann" "kd_tree" "brute_force_bacalhau" "hyper_index" "fast_search" \
+    "vector_finder_multi" "fasterer_search" "bacalhau_gpu" "manual_fast_search" "presort_msr" "cudabefaster" \
+    "tree_times_a_lady" "hyperplanejane" "cudamatata" "optimax_gpu" "gpu_manual_fast" "gpu_manual_fastest" \
+    "optimax_search" "fast_search_cuda")
 #the results of the test will be writen in tig-monorepo/test_errors.txt
 echo "" > test_errors.txt
 echo "Les 'resultats // results' 'se trouvent // will be written' dans le 'fichier - in file' test_errors.txt"
 for ((i=0;i<96;i++));
 do
-    echo "Résultat pour l'algorithme :${i} - ${algs[$i]}" >> test_errors.txt
+    echo "Résultat pour l'algorithme :${i} - ${algs[${i}]}" >> test_errors.txt
     echo -e "${i}\n[100,100]\n1\n5\no" | bash scripts/test_algorithm.sh | sed -n "/#instances: 5/,/-/p" >> test_errors.txt
 done
 
