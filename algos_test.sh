@@ -109,10 +109,10 @@ algos_saisis=()
 
 #les valeurs entrées par défaut ont été utilisées pour un CPU ryzen 9 7900
 #difficultés pour les tests - modifiez les valeurs entre les crochets
-dif_satisfiability=[50,400]
-dif_knapsack=[60,10]
-dif_vehicle_routing=[40,230]
-dif_vector_search=[10,350]
+dif_satisfiability=[100,400]
+dif_knapsack=[100,320]
+dif_vehicle_routing=[70,30]
+dif_vector_search=[200,500]
 # Nonces pour les tests - modifiez la valeur à votre convenance...
 nonces_satisfiability=5000
 nonces_knapsack=5000

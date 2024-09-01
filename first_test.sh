@@ -97,22 +97,35 @@ git pull --no-edit --no-rebase https://github.com/tig-foundation/tig-monorepo.gi
 git pull --no-edit --no-rebase https://github.com/tig-foundation/tig-monorepo.git vector_search/gpu_manual_fastest         
 git pull --no-edit --no-rebase https://github.com/tig-foundation/tig-monorepo.git vector_search/optimax_search             
 git pull --no-edit --no-rebase https://github.com/tig-foundation/tig-monorepo.git vector_search/fast_search_cuda           
+"optimized_sprint_sat walk_sat mt_sat inbound walk_sat_adapt_tabu filter_sat fast_walk_sat fastest_walk_sat \
+dpll_backtracking i_cant_get_no sprintier_sat fast_cdcl_sat_solver faster_walk_sat satisfiapilled double_optimized \
+heuristics_gsat schnoing sprint_sat manual_sat hybrid_ultra_fast need_for_speed genetic_sat sat_allocd sackophone \
+branch_and_bound sack_o_potatoes knap_suck knapmaxxing quick_knap ironhat_pete knapsplorify greedy quantum_knapsack \
+dynamic better_knapp genetic optimised_knapmax tinhat_pete needaknap better_knapm filter_knapmaxxing over_knapmaxxed \
+dual_descent better_in_twos flat_dp overlodes_sack ultra_fast_knapsack lightning_knapsack knap_zilla knapheudp \
+tabu_search overloded super_heaped clarke_wright simulated_annealing aco_sbas genetic_algorithm dynamic_colonies \
+enhanced_annealing lazier_cw inbound optimized_clarke ant_colony improv_clarke_wright clarke_wright_opt \
+compact_gcw_turbo fast_exit_cw_topt_ls cw_two_opt_ls compact_gcw clarke_wright_super cw_heuristic limitless \
+fast_exit_clarke adaptive_cluster guided_clarke_wright clarke_wright_who filter_cw fast_search_cuda presort_msr \
+kd_tree fasterer_search gpu_manual_fastest vector_finder_multi manual_fast_search bacalhau_gpu hyperplanejane \
+cudabefaster tree_times_a_lady optimax_search hyper_index fast_search cudamatata optimal_ann brute_force_bacalhau \
+optimax_gpu gpu_manual_fast"
 
-algs=("schnoing" "dpll_backtracking" "walk_sat" "genetic_sat" "satisfiapilled" "i_cant_get_no" "need_for_speed" \
-    "walk_sat_adapt_tabu" "fast_walk_sat" "sprint_sat" "faster_walk_sat" "fastest_walk_sat" "filter_sat" "sprintier_sat" \
-    "inbound" "double_optimized" "fast_cdcl_sat_solver" "hybrid_ultra_fast" "optimized_sprint_sat" "sat_allocd" "mt_sat" \
-    "heuristics_gsat" "manual_sat" "clarke_wright" "ant_colony" "genetic_algorithm" "simulated_annealing" "limitless" \
-    "dynamic_colonies" "lazier_cw" "guided_clarke_wright" "aco_sbas" "fast_exit_clarke" "filter_cw" "overloded" \
-    "clarke_wright_opt" "clarke_wright_who" "cw_two_opt_ls" "super_heaped" "enhanced_annealing" "optimized_clarke" \
-    "adaptive_cluster" "compact_gcw" "fast_exit_cw_topt_ls" "inbound" "compact_gcw_turbo" "improv_clarke_wright" \
-    "cw_heuristic" "clarke_wright_super" "dynamic" "greedy" "branch_and_bound" "genetic" "tabu_search" "knapmaxxing" \
-    "better_in_twos" "tinhat_pete" "knapsplorify" "dual_descent" "ironhat_pete" "flat_dp" "filter_knapmaxxing" \
-    "better_knapp" "better_knapm" "optimised_knapmax" "overlodes_sack" "knapheudp" "over_knapmaxxed" "needaknap" \
-    "sack_o_potatoes" "lightning_knapsack" "quantum_knapsack" "ultra_fast_knapsack" "sackophone" "knap_zilla" \
-    "knap_suck" "quick_knap" "optimal_ann" "kd_tree" "brute_force_bacalhau" "hyper_index" "fast_search" \
-    "vector_finder_multi" "fasterer_search" "bacalhau_gpu" "manual_fast_search" "presort_msr" "cudabefaster" \
-    "tree_times_a_lady" "hyperplanejane" "cudamatata" "optimax_gpu" "gpu_manual_fast" "gpu_manual_fastest" \
-    "optimax_search" "fast_search_cuda")
+
+algs=("optimized_sprint_sat walk_sat mt_sat inbound walk_sat_adapt_tabu filter_sat fast_walk_sat fastest_walk_sat \
+    dpll_backtracking i_cant_get_no sprintier_sat fast_cdcl_sat_solver faster_walk_sat satisfiapilled double_optimized \
+    heuristics_gsat schnoing sprint_sat manual_sat hybrid_ultra_fast need_for_speed genetic_sat sat_allocd sackophone \
+    branch_and_bound sack_o_potatoes knap_suck knapmaxxing quick_knap ironhat_pete knapsplorify greedy quantum_knapsack \
+    dynamic better_knapp genetic optimised_knapmax tinhat_pete needaknap better_knapm filter_knapmaxxing over_knapmaxxed \
+    dual_descent better_in_twos flat_dp overlodes_sack ultra_fast_knapsack lightning_knapsack knap_zilla knapheudp \
+    tabu_search overloded super_heaped clarke_wright simulated_annealing aco_sbas genetic_algorithm dynamic_colonies \
+    enhanced_annealing lazier_cw inbound optimized_clarke ant_colony improv_clarke_wright clarke_wright_opt \
+    compact_gcw_turbo fast_exit_cw_topt_ls cw_two_opt_ls compact_gcw clarke_wright_super cw_heuristic limitless \
+    fast_exit_clarke adaptive_cluster guided_clarke_wright clarke_wright_who filter_cw fast_search_cuda presort_msr \
+    kd_tree fasterer_search gpu_manual_fastest vector_finder_multi manual_fast_search bacalhau_gpu hyperplanejane \
+    cudabefaster tree_times_a_lady optimax_search hyper_index fast_search cudamatata optimal_ann brute_force_bacalhau \
+    optimax_gpu gpu_manual_fast")
+    
 #the results of the test will be writen in tig-monorepo/test_errors.txt
 echo "" > test_errors.txt
 echo "Les 'resultats // results' 'se trouvent // will be written' dans le 'fichier - in file' test_errors.txt"
